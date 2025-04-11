@@ -1,11 +1,9 @@
-/* Reset and basic box sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body styling with a soft, warm gradient background */
   body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #f1cb8c, #ffcd74);
@@ -15,7 +13,7 @@
     height: 100vh;
   }
   
-  /* Container styling with a gentle, warm off-white background */
+
   .container {
     text-align: center;
     background: #ff7251;
@@ -24,14 +22,12 @@
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   }
   
-  /* Heading styling with a soft, warm brown hue */
   h1 {
     font-size: 2.5em;
     color: #293d82;
     margin-bottom: 20px;
   }
   
-  /* Button styling with a subtle warm pastel gradient and soft hover effect */
   button {
     font-size: 1em;
     padding: 12px 25px;
