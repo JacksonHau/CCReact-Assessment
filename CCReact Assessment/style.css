@@ -1,0 +1,56 @@
+/* Reset and basic box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling with a dark, subtle gradient background */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  /* Container styling with neon border and glow effect */
+  .container {
+    text-align: center;
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    border: 2px solid #0ff; /* Neon cyan border */
+    box-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
+  }
+  
+  /* Neon heading with a glowing text effect */
+  h1 {
+    font-size: 2.5em;
+    color: #0ff; /* Neon cyan */
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  
+  /* Button styling with a vibrant neon magenta border and hover glow */
+  button {
+    font-size: 1em;
+    padding: 12px 25px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #ff00ff;  /* Neon magenta border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  }
+  
+  button:hover {
+    background: #ff00ff;
+    color: #1a1a1a;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    transform: scale(1.05);
+  }
+  
